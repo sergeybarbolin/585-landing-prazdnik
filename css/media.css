@@ -1,0 +1,231 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1450px) {
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1350px) {
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main {
+        padding-top: 55px;
+    }
+    .horizontal-navigation__item {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .short-description {
+        font-size: 20px;
+    }
+    .main-banner {
+        margin-top: 25px;
+    }
+    .image-present {
+        margin-top: -20px
+    }
+    .content {
+        font-size: 18px;
+        padding: 0 101px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .logo__img_header {
+        width: 350px;
+        margin-top: 26px;
+        margin-bottom: 25px;
+    }
+    .horizontal-navigation__item {
+        font-size: 15px;
+    }
+    .horizontal-navigation {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .main {
+        padding-top: 40px;
+        overflow: hidden;
+    }
+    .short-description {
+        font-size: 19px;
+    }
+    .main-banner {
+        max-width: 1240px;
+        margin: 25px auto 0;
+    }
+    .content {
+        padding: 0 20px;
+    }
+    .image-mail {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .social__title {
+        font-size: 30px;
+    }
+    .social-icons {
+        width: 445px;
+    }
+    .social-icons img {
+        width: 80%;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .logo_border-bottom_black {
+        border-bottom: none;
+    }
+
+    .main-banner-576 {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .main-banner {
+        display: none;
+    }
+
+    .title br {
+        display: block;
+    }
+
+    .horizontal-navigation {
+        display: none;
+    }
+
+    .main {
+        height: auto;
+    }
+    .title {
+        margin: 20px 0 15px;
+        line-height: 45px;
+    }
+    .short-description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .image-present {
+        width: 184px;
+    }
+    .content p {
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+    .image-mail {
+        width: 139px;
+    }
+    .content {
+        padding: 0px 20px;
+        margin-bottom: 55px;
+    }
+    .footer {
+        padding: 17px 15px 27px;
+    }
+
+
+}
+
+
+@media only screen and (max-width : 576px) {
+    .main {
+        padding-top: 37px;
+    }
+
+
+}
+
+@media only screen and (max-width : 480px) {
+    .main {
+        padding-top: 20px;
+        padding-bottom: 380px;
+    }
+    .title {
+        margin: 5px 0 14px;
+        line-height: 35px;
+        font-size: 28px;
+    }
+    .short-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main-banner-576 {
+        max-width: 100%;
+    }
+    .image-present {
+        width: 120px;
+        margin-top: -3px;
+    }
+    .content p {
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+    .image-mail {
+        width: 102px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .content {
+        padding: 0;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .social__title {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    .social {
+        margin-bottom: 25px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+    .logo__img_header {
+        width: 285px;
+    }
+    .short-description {
+        text-align: left;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 576px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
